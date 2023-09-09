@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+body {
+    font-family: 'Cairo', sans-serif;
+    background-image: url(../img/background.png);
+}
+
+
+
+
+/* start header  */
+.header {
+    background-color: rgb(37, 116, 71);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.header p {
+    float: right;
+}
+
+/* end header  */
+
+/* start slider  */
+
+.carousel-indicators li  {
+    height: 5px;
+    background-color: #94c11f;
+}
+
+.overlay1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(149, 193, 91, 0.107);
+    position: absolute;
+    z-index: 1;
+   
+}
+
+
+
+/* end slider  */
+
+/* start features  */
+
+.features {
+    margin-top: 50px;
+    padding: px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 50px;
+    color:rgb(30, 99, 60) ;
+    margin-bottom: 20px;
+}
+
+.features h3 {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(30, 99, 60) ;
+    
+}
+ 
+.features i {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(37, 116, 71) ;
+    line-height: 100px;
+    color: white;
+    font-size: 35px;
+
+}
+
+.features p {
+    text-align: center;
+    color: #94c11f ;
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    
+
+}
+
+/* end features  */
+
+/* start our team  */
+
+.our-team {
+    background-color: #ecf0e14c;
+    padding: 20px;
+    background-image: url(../img/background-img-3.jpg);
+    border-bottom: 3px solid #257447;
+
+}
+
+
+
+.our-team h2 {
+    font-size: 50px;
+    color:rgb(30, 99, 60) ;
+    margin-bottom: 20px;
+
+}
+
+
+
+/* end our team  */
+
+/* start statistics  */
+.statistics {
+    margin-top: 20px;
+    width: 100%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-image: url(../img/statistics-img-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.statistics .overlay2 {
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.227);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.statistics .overlay2 h3 {
+    color: white;
+    
+
+}
+
+
+.statistics .overlay2 p {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+/* end statistics  */
+
+/* start our sponsors  */
+
+.our-sponsors {
+    margin-top: 20px;
+    width: 100%;
+    line-height: 300px;
+    background-image: url(../img/background-img-3.jpg);
+    border-bottom: 3px solid #257447;
+}
+
+
+/* end our sponsors  */
+
+
+/* start latest news  */
+
+.recent-news .btn-success {
+    background-color: #94c11f;
+    border-color:#94c11f
+
+
+}
+
+.recent-news .btn-success:hover {
+    background-color: #257447 ;
+    box-shadow: 2px 2px  #1b5032;
+}
+
+
+/* end latest news  */
+
+
+/* start footer  */
+
+footer {
+    background-color: #257447;
+    padding-top: 50px;
+    background-image:url(../img/background-img-3.jpg);
+    margin-top: 150px;
+    
+
+}
+
+
+
+footer p {
+    color: white;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    color: #94c11f;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+
+/* end footer  */
+
+
+
+/* start page name */
+
+.jumbotron {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+  
+
+} 
+
+.jumbotron .blog-info {
+    flex: 2;
+}
+
+.jumbotron .blog-img {
+    flex: 1;
+}
+
+
+
+/* end page name  */
+
+
+/* start blog details  */
+
+.blog-details {
+    line-height: 2 ;
+    padding: 10px;
+}
